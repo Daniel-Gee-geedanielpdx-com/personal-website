@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Website - Home</title>
+	<title>My Website - About</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is a personal website of Daniel Gee, a web developer based in Portland Oregon.">
 	<link rel="stylesheet" href="style.css">
-	<script src="javascript.js"></script>
-	</head>
+</head>
 <body>
-		<header>
+	<script>
+		function showAlert() {
+		  alert("Hello there!");
+		}
+	  </script>
+	<header>
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -16,12 +22,33 @@
 		</nav>
 	</header>
 	<main>
-		<h1>Welcome to My Website</h1>
-		<p>This is the home page of my website. Here, you can find information about me and my work.</p>
-	</main>
-	
-</body>
-<footer>
-	<button onclick="showAlert()">Click Me!</button>
-</footer>
-</html>
+		<h1>About Me</h1>
+        <h2>Who I am and what I do</h2>		
+        <p>Hi, my name is Daniel Gee. I'm currently learning web development and am based in Portland Oregon.</p>
+
+        <img src="images/me.jpg" alt="A photo of me" width="400">
+        <p>I have always been interested in technology and how it can be used to create amazing things. I started learning web development as a hobby and soon realized that I wanted to pursue it as a career.</p>
+
+        <p>[more information about myself and my background here]</p>
+
+        <video src="daniel-video.mp4" controls alt="A video of myself talking about my web development projects">
+
+        </video>
+
+        <p>I enjoy working on different kinds of web projects, from simple static websites to complex dynamic applications. I have experience with HTML, CSS, JavaScript and more soon to come.</p>
+
+        <audio src="daniel-audio.mp3" controls alt="An audio clip of me explaining my web development skills">
+            
+        </audio>
+
+        <p>I'm always eager to learn new things and improve my skills. I plan on continuing my education and will learn React, Node.js, MongoDB, and Firebase to name a few in the near future.</p>
+
+        <p>If you want to know more about me or my work, feel free to contact me anytime.</p>
+
+    </main>
+
+    </body>
+	<footer>
+		<button onclick="showAlert()">Click Me!</button>
+	</footer>
+	</html>
