@@ -1,0 +1,79 @@
+/* CSS Reset - Ensures cross-browser consistency in styling */
+* {
+    padding: 1px;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
+    background-color: #000000;
+    background-image: url(images/background4.jpg);
+    background-size: cover;
+    background-repeat: space;
+    text-align: center
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 2rem 0 1.5rem;
+    line-height: 1.2;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+  }
+  
+  p {
+    margin: 0 0 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+  
+  /* Header styles */
+  header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #5bb8abce;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 1.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  nav a:hover {
+    color: #f6f7f8;
+  }
+  
+  /* Main styles */
+  main {
+    max-width: 1000px;
+    margin: 80px auto 0;
+    padding: 1rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    align-content: center;
+  }
