@@ -12,9 +12,9 @@
     color: black;
     background-color: #000000;
     background-image: url(images/background4.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: space;
-    text-align: center
+    text-align: center;
   }
   
   h1, h2, h3, h4, h5, h6 {
